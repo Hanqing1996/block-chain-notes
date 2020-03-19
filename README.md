@@ -148,3 +148,11 @@ merkle tree 根 hash 值
 #### BitCoin is secured by mining
 * 只要大部分算力掌握在诚实的节点手里，整个系统的安全性是有保障的
 * 挖矿对于矿工有利可图，而对于整个交易系统而言，意义在于维护交易的安全性。
+
+#### irrevocable ledger（区块链账本是不可篡改的）
+* 当某笔交易刚加入区块链时，不被认为是不可篡改的。直到多个后续交易被确认(three confirmation,six confirmation)，形成较长后续链后，才认为该交易是不可被篡改的。
+
+#### selfish money
+* 非法交易挖到区块（找到 nonce）后先不发布，直到形成较长后续链后，覆盖合法交易链。
+* 但是该做法需要较强算力，不计较 block reward，这样有强算力的非法矿工还是比较少数的。
+---
